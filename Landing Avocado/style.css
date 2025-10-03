@@ -1,0 +1,270 @@
+/* Hizmetler Giriş */
+.services-intro {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.services-intro h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.services-intro p {
+    font-size: 1.2rem;
+    color: #e0f2f1;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Hizmet Kutucukları */
+.services-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+}
+
+.service-box {
+    background: rgba(255,255,255,0.15); /* cam efekti */
+    padding: 30px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.service-box h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    font-size: 1.1rem;
+    color: #e0f2f1;
+}
+
+/* Giriş Bölümü */
+.about-intro {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* cam efekti */
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+}
+
+.about-intro h1 {
+    font-size: 3rem;
+    color: #ffffff; /* ana sayfa uyumlu */
+    margin-bottom: 20px;
+}
+
+.about-intro p {
+    font-size: 1.2rem;
+    color: #e0f2f1;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Misyon & Vizyon */
+.about-mission {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-mission h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-mission p {
+    font-size: 1.1rem;
+    color: #e0f2f1;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* Tarihçe / Hikaye */
+.about-history {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-history h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about-history p {
+    font-size: 1.1rem;
+    color: #e0f2f1;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Ekip */
+.about-team {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-team h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 250px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* tamamen yuvarlak */
+    object-fit: cover;
+    border: 3px solid #ffffff; /* kenarlık */
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #e0f2f1;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", calibri;
+    color: #fff;
+}
+
+.glass-efect{
+    height: 100vh;
+    padding: 4vh;
+    background-color: #014a08;
+}
+
+.main-content{
+    width: 100%;
+    background-color: rgb(13, 96, 26);
+    min-height: 90vh;
+    padding: 10px 10%;
+    overflow: hidden;
+box-shadow: 0px 0px 16px 9px rgba(0,0,0,0.5);
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{ width: 50px;}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: .4s all ease-in-out;
+}
+
+nav ul li a:hover{
+    background-color: #00b90f;
+    border-radius: 20px;
+    color: #000;
+
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    background-image: linear-gradient(45deg, #73e600, #00b90f);
+    color: #000;
+    font-weight: 400;
+    transition: .4s all;
+
+}
+
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+.content h1{
+    font-size: 70px;
+    animation-delay: .2s;
+}
+
+
+.content h1 span{
+    color: #73e600;
+}
+
+.content p{
+    margin: 2rem 0;
+    line-height: 1.7rem;
+    font-size: 17px;
+    animation-delay: .4s;
+}
+
+.content .btn{
+    padding: 15px 70px;
+    animation-delay: .8s;
+}
+
+.hero-img{
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.hero-img.anim{
+    animation-delay: 1.2s;}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: anim .5s linear forwards;
+}
+
+@keyframes anim {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
